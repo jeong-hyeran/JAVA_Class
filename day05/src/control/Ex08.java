@@ -15,7 +15,7 @@ public class Ex08 {
 		else if(select == 2)	System.out.println("Two");
 		else if(select == 3)	System.out.println("Three");
 		else  					System.out.println("Others");
-		
+		// 종속문장이 간결하고, 한줄이면 {}생략 가능한다.
 		switch(select) {
 			case 1:			System.out.println("하나");	break;
 			case 2:			System.out.println("둘");	break;

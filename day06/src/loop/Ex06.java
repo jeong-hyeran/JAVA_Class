@@ -11,7 +11,6 @@ public class Ex06 {
 				answer += 1;
 			}
 		}
-		
 		return answer;
 	}
 	

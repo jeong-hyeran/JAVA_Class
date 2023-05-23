@@ -5,7 +5,7 @@ public class Ex01 {
 	public static void main(String[] args) {
 	
 		int num = 10;
-		if(num < 20) {	// 조건이 참이면, 종속문장을 한버만 실행한다.
+		if(num < 20) {	// 조건이 참이면, 종속문장을 한번만 실행한다.
 			num+=1;
 			System.out.println("   if) num : " + num);
 		} 
@@ -29,7 +29,7 @@ public class Ex01 {
 			System.out.println("infinite loop ) num : " + num);
 			
 			if (num == 10000) {
-				break; // break는 if를 제외한 {} 블럭을 아래로 탈풀한다.
+				break; // break는 if를 제외한 {} 블럭을 아래로 탈출한다.
 			}
 		}
 		System.out.println("프로그램 종료");

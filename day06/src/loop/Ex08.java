@@ -9,7 +9,7 @@ public class Ex08 {
 
 		Random ran = new Random();
 		int begin = ran.nextInt(10)+1;
-		int end = ran.nextInt(10)+1000;
+		int end = ran.nextInt(10)+10;
 		
 		System.out.printf("begin : %d, end : %d\n", begin, end);
 		

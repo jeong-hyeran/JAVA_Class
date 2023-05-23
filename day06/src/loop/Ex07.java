@@ -19,7 +19,7 @@ public class Ex07 {
 		
 		while (true) {
 			cnt++;
-			if (seq ==answer) {
+			if (seq == answer) {
 				break;
 			}
 			seq++;
@@ -33,10 +33,10 @@ public class Ex07 {
 			bin = (min + max) /2;	// 찾는 값은 (최소값 + 최대값) / 2
 			cnt++;
 
-			System.out.printf("seq : %d, cnt : %d\t", bin, cnt);
+			System.out.printf("bin : %d, cnt : %d\t", bin, cnt);
 			
 			if(bin > answer) {
-				System.out.println("DOWn");
+				System.out.println("DOWN");
 				max = bin;
 			}
 			else if (bin < answer) {

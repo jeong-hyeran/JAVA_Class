@@ -1,7 +1,7 @@
 package array;
 
-import java.util.Random;
 import java.util.Arrays;
+import java.util.Random;
 
 public class Quiz03 {
 
@@ -24,20 +24,18 @@ public class Quiz03 {
 			if(arr[i] % 2 == 0) {
 				even++;			
 			}else {
-			odd++;	
+				odd++;	
 			}
 		}
-		System.out.println("짝수의 개수 : "+even);
-		System.out.println("홀수의 개수 : "+odd);
-		System.out.println();
+		System.out.printf("짝수 개수 : %d\n홀수 개수 : %d\n", even, odd);
 		
 		// 2) oddArray와 evenArray를 생성하여 각각 홀수와 짝수를 담아서 출력하세요
 		/// 개수를 파악해서 배열을 만들어야 한다.
 		
 			//내가 한거
-		int j=0,k=0;
 		int []evenArray = new int[even];
 		int []oddArray = new int[odd];
+		int j=0,k=0;
 		for (int i = 0; i < arr.length; i++) {
 			if(arr[i] % 2 == 0) {
 				evenArray[j] = arr[i];
@@ -47,9 +45,11 @@ public class Quiz03 {
 				k++;
 			}
 		}
+		
 		System.out.println("짝수 : "+Arrays.toString(evenArray));
 		System.out.println("홀수 : "+Arrays.toString(oddArray));
 		System.out.println();
+		
 		// 3) arr의 총합을 구하여 출력하세요
 		int total = 0;
 		for (int i = 0; i < arr.length; i++) {

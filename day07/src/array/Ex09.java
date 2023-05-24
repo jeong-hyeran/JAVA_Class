@@ -11,13 +11,13 @@ public class Ex09 {
 		// 배열은 값을 지정하여 생성하거나, 길이를 지정하여 생성할 수 있다.
 		int[] t2 = { 10, 30, 20, 40, 50 };
 		int[] t3 = new int[5];	//길이 5짜리 빈 배열
-		int[] t4 = new int[] {2,7,8,4,6};
+//		int[] t4 = new int[] {2,7,8,4,6};
 		
 //		int[] t5 = new int[5] {1,5,2,4,3}; // 둘중 하나만 지정해야 한다.
 		/// 길이를 지정하거나 값을 정하거나 둘중하나만 사용가능하다
 		
-		String s1 = "Hello";
-		String s2 = new String("Hello");
+//		String s1 = "Hello";
+//		String s2 = new String("Hello");
 		/// 요아이들은 참고만 해두자!
 		
 		
